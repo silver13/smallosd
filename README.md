@@ -9,4 +9,4 @@ since BATT1 / BATT2 have 1/16 dividers they are not recommended for 1S range vol
 
 The CURR and RSSI inputs have no dividers so they should not exceed 5V by a large margin. The board can also display VCC as one of the voltages.
 
-The board is powered by 5V. At approx 4.5V the OSD will stop functioning, and lower it will lose video.
+The board is powered by 5V. At approx 4.5V the OSD will stop functioning, and lower it will lose video. The OSD recovers from mild undervoltages ( >3v ) but an exclamation mark is shown since some brownouts are too short to be noticed or can be hard to identify.
